@@ -1,0 +1,27 @@
+body {
+    font-family: 'VT323', monospace;
+    background: #111;
+    color: #f0f0f0;
+    font-size: 20px;
+    padding: 2rem;
+  }
+#game-box {
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #444;
+    padding: 2rem;
+    background-color: #222;
+  }
+button {
+    font-family: 'VT323';
+    margin-top: 1rem;
+    display: block;
+  }
+@font-face {
+    font-family: 'VT323';
+    src: url('assets/fonts/VT323-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
