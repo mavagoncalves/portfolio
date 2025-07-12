@@ -2,14 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>RPG CV</title>
+  <title>My little corner</title>
   <link rel="stylesheet" href="style.css">
+  <style>body { margin: 0; overflow: hidden; }</style>
 </head>
 <body>
-  <div id="game-box">
-    <p id="story-text">Welcome, adventurer!</p>
-    <div id="options"></div>
+  <canvas id="three-canvas"></canvas>
+
+  <!-- Info Panel (hidden by default) -->
+  <div id="infoPanel" class="hidden">
+    <h2 id="panelTitle">Title</h2>
+    <p id="panelContent">Description goes here.</p>
+    <button onclick="hidePanel()">Close</button>
   </div>
-  <script src="game.js"></script>
+
+<!-- Use this older CDN where OrbitControls works as expected -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.145.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.145.0/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.145.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
