@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Welcome to my world — literally! 🎮  \r This is not your average portfolio. Instead of scrolling through walls of text, you get to **explore a 3D virtual room** built with **Three.js**. Each object in the room has a story to tell — click around to uncover my **education, skills, and experiences**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavagoncalves/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mavagoncalves/portfolio/issues"
+  },
+  "homepage": "https://github.com/mavagoncalves/portfolio#readme",
+  "dependencies": {
+    "three": "^0.185.1",
+    "vite": "^8.1.5"
+  }
+}
